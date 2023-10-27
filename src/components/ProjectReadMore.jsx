@@ -9,7 +9,7 @@ const ProjectReadMore = () => {
         <Navbar className='' />
         
 
-        <div className="md:absolute md:w-[940px] md:h-[1425px] md:top-[163px] md:left-[238px]">          
+        <section className="md:absolute md:w-[940px] md:h-[1425px] md:top-[163px] md:left-[238px]">          
           <div className="md:absolute md:w-[927px] md:h-[186px] md:-top-px md:left-px">
             <div className="md:absolute w-[21px] h-[222px] top-[-100px] left-[100px] rotate-[-90.00deg]">
               <div className="md:absolute  md:top-[149px] left-[-54px] rotate-[90.00deg] [font-family:'Roboto',Helvetica] font-bold text-primary-text text-[16px] tracking-[2.00px] leading-[normal] whitespace-nowrap">
@@ -74,10 +74,10 @@ const ProjectReadMore = () => {
             Posuere sed pulvinar enim faucibus justo, cursus. In diam facilisi at sit convallis blandit blandit in.
             Maecenas odio orci lectus urna ante consequat erat non morbi.
           </p>
-        </div>
+        </section>
 
 
-        <div className="absolute w-[1500px] h-[436px] top-[1684px] left-0 bg-yellow-light">
+        <section className="absolute w-[1500px] h-[436px] top-[1684px] left-0 bg-yellow-light">
           <div className="relative w-[1024px] h-[244px] top-[96px] left-[238px]">
             <div className="absolute w-[488px] h-[98px] top-0 left-0">
               <div className="absolute w-[440px] h-[98px] top-0 left-[52px]">
@@ -155,24 +155,24 @@ const ProjectReadMore = () => {
               </div>
             </div>
           </div>
-        </div>
+        </section>
 
 
-        <div className="w-[1280px] top-[2273px] left-[110px] absolute h-[421px]">
+        <section className="w-[1280px] top-[2273px] left-[110px] absolute h-[421px]">
             place
-        </div>
+        </section>
 
 
 
-        <div className="absolute w-[1280px] h-[384px] top-[2755px] left-[110px]">
+        <section className="absolute w-[1280px] h-[384px] top-[2755px] left-[110px]">
           Time
-        </div>
+        </section>
 
 
-        <div className="absolute  w-[248px] h-[19px] top-[2213px] left-[110px]">
+        <section className="absolute  w-[248px] h-[19px] top-[2213px] left-[110px]">
         Second
 
-        </div>
+        </section>
 
 
 

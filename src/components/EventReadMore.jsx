@@ -31,7 +31,7 @@ const EventReadMore = () => {
           </div>
         </header> 
 
-        <div className="absolute w-[774px] h-[838px] top-[563px] md:left-[354px]">
+        <section className="absolute w-[774px] h-[838px] top-[563px] md:left-[354px]">
           <p className="absolute md:w-[768px] top-[734px] left-0 font-paragraph font-[number:var(--paragraph-font-weight)] text-secondary-text text-[length:var(--paragraph-font-size)] tracking-[var(--paragraph-letter-spacing)] leading-[var(--paragraph-line-height)] [font-style:var(--paragraph-font-style)]">
             Et morbi vitae lobortis nam odio. Faucibus vitae vel neque nullam in in lorem platea mattis. Euismod aenean
             rhoncus scelerisque amet tincidunt scelerisque aliquam. Luctus porttitor elit vel sapien, accumsan et id ut
@@ -60,9 +60,9 @@ const EventReadMore = () => {
             alt="Unsplash cveoh jjmee"
             src="/images/unsplash-cveoh-jjmee.png"
           />
-        </div>
+        </section>
 
-        <div className="absolute w-[768px] h-[514px] top-[1497px] md:left-[354px]">
+        <section className="absolute w-[768px] h-[514px] top-[1497px] md:left-[354px]">
           <div className="absolute w-[770px] h-[60px] top-0 left-0">
             <div className="absolute top-0 left-0 [font-family:'Roboto',Helvetica] font-bold text-primary-text text-[40px] tracking-[0] leading-[60px] whitespace-nowrap">
               Other events
@@ -140,7 +140,7 @@ const EventReadMore = () => {
               </div>
             </div>
           </div>
-        </div>
+        </section>
         
 
         <Footer
