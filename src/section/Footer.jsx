@@ -60,9 +60,9 @@ const Footer = ({ className, overlapClassName, to }) => {
             >
               Events
             </Link>
-            <div className="absolute top-[50px] left-0 opacity-[0.78] [font-family:'Roboto',Helvetica] font-normal text-white text-[14px] tracking-[0] leading-[22.4px] whitespace-nowrap">
+            <a href='/project-read-mmore' className="absolute top-[50px] left-0 opacity-[0.78] [font-family:'Roboto',Helvetica] font-normal text-white text-[14px] tracking-[0] leading-[22.4px] whitespace-nowrap">
               Projects
-            </div>
+            </a>
             <div className="left-0 [font-family:'Roboto',Helvetica] font-bold text-white text-[16px] tracking-[0] leading-[25.6px] whitespace-nowrap absolute top-0">
               More
             </div>
