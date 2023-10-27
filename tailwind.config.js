@@ -25,7 +25,7 @@ module.exports = {
         "paragraph-small": "var(--paragraph-small-font-family)",
       },
       backgroundImage: {
-        'hero-pattern': "url('/img/hero-pattern.svg')",
+        'hero-pattern': "url('/public/images/fill-1.svg')",
         'footer-texture': "url('/img/footer-texture.png')",
       },
     },

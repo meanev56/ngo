@@ -71,3 +71,7 @@
 .photo {
   background-image: url("../public/images/folder.png");
 }
+
+.projectAlbum {
+  background-image: url("../public/images/fill-1.svg");
+}
