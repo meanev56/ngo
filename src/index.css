@@ -75,3 +75,11 @@
 .projectAlbum {
   background-image: url("../public/images/fill-1.svg");
 }
+
+.picture2{
+  background-image: url('../public/images/bg-image.png');
+}
+
+.picture3{
+  background-image: url('../public/images/bg.png');
+}

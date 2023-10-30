@@ -26,7 +26,8 @@ module.exports = {
       },
       backgroundImage: {
         'hero-pattern': "url('/public/images/fill-1.svg')",
-        'footer-texture': "url('/img/footer-texture.png')",
+        'header-texture': "url('/public/images/bg-image.png')",
+        'header-face' : "url('/public/images/bg.png')",
       },
     },
   },
