@@ -7,10 +7,10 @@ const Footer = ({ className, overlapClassName, to }) => {
   return (
     <footer className={` ${className}`}>
       <div className={`relative ${overlapClassName}`}>
-        <div className="absolute w-[1500px] h-[802px] md:h-80   top-0 left-0 bg-black" />
+        <div className="absolute w-[385px] md:w-[1500px] h-[802px] md:h-80   top-0 left-0 bg-black" />
           <div className='grid gap-8'>
             <div className="relative top-[86px] md:left-9">
-          <div className="absolute top-0 left-0 [font-family:'Roboto',Helvetica] font-bold text-white text-[24px] tracking-[0] leading-[44px] whitespace-nowrap">
+          <div className="absolute top-[-60px] md:top-0 left-0 [font-family:'Roboto',Helvetica] font-bold text-white text-[24px] tracking-[0] leading-[44px] whitespace-nowrap">
             largerthan
           </div>
           <div className="absolute w-[11px] top-0 left-[114px] [font-family:'Courgette',Helvetica] font-normal text-white text-[25px] tracking-[0] leading-[44px] whitespace-nowrap">
@@ -19,18 +19,18 @@ const Footer = ({ className, overlapClassName, to }) => {
             </div>
             <div className="absolute w-[546px] left-[146px] top-96 md:top-4 md:end md:left-[800px]" >
           <div className="absolute w-[546px] h-[64px] top-[144px] left-0">
-            <div className="relative w-[544px] h-[64px]">                
+            <div className="relativen w-[200px] md:w-[544px] h-[64px]">                
                     <div>
                         <Newsletter />
                     </div>
                 </div>
           </div>
-          <p className="absolute w-[440px] top-0 left-0 [font-family:'Roboto',Helvetica] font-bold text-white text-[40px] tracking-[0] leading-[56.0px]">
+          <p className="absolute w-[340px] md:w-[440px] top-0 left-[-140px] md:left-0 [font-family:'Roboto',Helvetica] font-bold text-white text-[40px] tracking-[0] leading-[56.0px]">
             Subscribe to get latest updates
           </p>
             </div>
             <div className="absolute w-[366px] h-[210px] top-[96px] left-[200px]" >
-        <div className="absolute w-[84px] h-[210px] top-0 left-0">
+        <div className="absolute w-[84px] h-[210px] top-0 left-[-180px] md:left-0">
             <div className="absolute top-[188px] left-0 opacity-[0.78] [font-family:'Roboto',Helvetica] font-normal text-white text-[14px] tracking-[0] leading-[22.4px] whitespace-nowrap">
               Contact
             </div>
@@ -47,7 +47,7 @@ const Footer = ({ className, overlapClassName, to }) => {
               Home
             </div>
           </div>
-          <div className="w-[62px] h-[210px] left-[162px] absolute top-0">
+          <div className="w-[62px] h-[210px] left-[-60px] md:left-[162px] absolute top-0">
             <div className="absolute top-[188px] left-0 opacity-[0.78] [font-family:'Roboto',Helvetica] font-normal text-white text-[14px] tracking-[0] leading-[22.4px] whitespace-nowrap">
               Blog
             </div>
@@ -67,7 +67,7 @@ const Footer = ({ className, overlapClassName, to }) => {
               More
             </div>
           </div>
-          <div className="w-[74px] h-[210px] left-[302px] absolute top-0">
+          <div className="w-[74px] h-[210px] left-[80px] md:left-[302px] absolute top-0">
             <div className="absolute top-[188px] left-0 opacity-[0.78] [font-family:'Roboto',Helvetica] font-normal text-white text-[14px] tracking-[0] leading-[22.4px] whitespace-nowrap">
               Linkdin
             </div>
