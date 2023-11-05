@@ -4,6 +4,7 @@ import StyleGuide from "./components/StyleGuide";
 import EventReadMore from "./components/EventReadMore";
 import ProjectReadMore from "./components/ProjectReadMore";
 import Homepage from "./components/Homepage";
+import AboutPage from "./components/AboutPage";
 
  
 function App() {
@@ -15,6 +16,7 @@ function App() {
                     <Route exact path="project-read-more" element={<ProjectReadMore />} />
                     <Route exact path="/event-read-more" element={<EventReadMore />} />
                     <Route exact path='/style-guide ' element={<StyleGuide />} />
+                    <Route exact path="/about-us" element={<AboutPage />} />
                 </Routes>
             </Router>
         </div>

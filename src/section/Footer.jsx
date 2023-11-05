@@ -31,29 +31,29 @@ const Footer = ({ className, overlapClassName, to }) => {
             </div>
             <div className="absolute w-[366px] h-[210px] top-[96px] left-[200px]" >
         <div className="absolute w-[84px] h-[210px] top-0 left-[-180px] md:left-0">
-            <div className="absolute top-[188px] left-0 opacity-[0.78] [font-family:'Roboto',Helvetica] font-normal text-white text-[14px] tracking-[0] leading-[22.4px] whitespace-nowrap">
+            <a href='/contact' className="absolute top-[188px] left-0 opacity-[0.78] [font-family:'Roboto',Helvetica] font-normal text-white text-[14px] tracking-[0] leading-[22.4px] whitespace-nowrap">
               Contact
-            </div>
-            <div className="absolute top-[142px] left-0 opacity-[0.78] [font-family:'Roboto',Helvetica] font-normal text-white text-[14px] tracking-[0] leading-[22.4px] whitespace-nowrap">
+            </a>
+            <a href='/what-we-do' className="absolute top-[142px] left-0 opacity-[0.78] [font-family:'Roboto',Helvetica] font-normal text-white text-[14px] tracking-[0] leading-[22.4px] whitespace-nowrap">
               What we do
-            </div>
-            <div className="absolute top-[96px] left-0 opacity-[0.78] [font-family:'Roboto',Helvetica] font-normal text-white text-[14px] tracking-[0] leading-[22.4px] whitespace-nowrap">
+            </a>
+            <a href='/team' className="absolute top-[96px] left-0 opacity-[0.78] [font-family:'Roboto',Helvetica] font-normal text-white text-[14px] tracking-[0] leading-[22.4px] whitespace-nowrap">
               Team
-            </div>
-            <div className="absolute top-[50px] left-0 opacity-[0.78] [font-family:'Roboto',Helvetica] font-normal text-white text-[14px] tracking-[0] leading-[22.4px] whitespace-nowrap">
+            </a>
+            <a href='/about-us' className="absolute top-[50px] left-0 opacity-[0.78] [font-family:'Roboto',Helvetica] font-normal text-white text-[14px] tracking-[0] leading-[22.4px] whitespace-nowrap">
               About us
-            </div>
-            <div className="absolute top-0 left-0 [font-family:'Roboto',Helvetica] font-bold text-white text-[16px] tracking-[0] leading-[25.6px] whitespace-nowrap">
+            </a>
+            <a href='/' className="absolute top-0 left-0 [font-family:'Roboto',Helvetica] font-bold text-white text-[16px] tracking-[0] leading-[25.6px] whitespace-nowrap">
               Home
-            </div>
+            </a>
           </div>
           <div className="w-[62px] h-[210px] left-[-60px] md:left-[162px] absolute top-0">
-            <div className="absolute top-[188px] left-0 opacity-[0.78] [font-family:'Roboto',Helvetica] font-normal text-white text-[14px] tracking-[0] leading-[22.4px] whitespace-nowrap">
+            <a href='/blog' className="absolute top-[188px] left-0 opacity-[0.78] [font-family:'Roboto',Helvetica] font-normal text-white text-[14px] tracking-[0] leading-[22.4px] whitespace-nowrap">
               Blog
-            </div>
-            <div className="absolute top-[142px] left-0 opacity-[0.78] [font-family:'Roboto',Helvetica] font-normal text-white text-[14px] tracking-[0] leading-[22.4px] whitespace-nowrap">
+            </a>
+            <a href='/donate' className="absolute top-[142px] left-0 opacity-[0.78] [font-family:'Roboto',Helvetica] font-normal text-white text-[14px] tracking-[0] leading-[22.4px] whitespace-nowrap">
               Donate
-            </div>
+            </a>
             <Link
               className="absolute top-[96px] left-0 opacity-[0.78] [font-family:'Roboto',Helvetica] font-normal text-white text-[14px] tracking-[0] leading-[22.4px] whitespace-nowrap"
               to={to}
@@ -68,21 +68,21 @@ const Footer = ({ className, overlapClassName, to }) => {
             </div>
           </div>
           <div className="w-[74px] h-[210px] left-[80px] md:left-[302px] absolute top-0">
-            <div className="absolute top-[188px] left-0 opacity-[0.78] [font-family:'Roboto',Helvetica] font-normal text-white text-[14px] tracking-[0] leading-[22.4px] whitespace-nowrap">
+            <a href='/linkedin' className="absolute top-[188px] left-0 opacity-[0.78] [font-family:'Roboto',Helvetica] font-normal text-white text-[14px] tracking-[0] leading-[22.4px] whitespace-nowrap">
               Linkdin
-            </div>
-            <div className="absolute top-[142px] left-0 opacity-[0.78] [font-family:'Roboto',Helvetica] font-normal text-white text-[14px] tracking-[0] leading-[22.4px] whitespace-nowrap">
+            </a>
+            <a href='/twitter' className="absolute top-[142px] left-0 opacity-[0.78] [font-family:'Roboto',Helvetica] font-normal text-white text-[14px] tracking-[0] leading-[22.4px] whitespace-nowrap">
               Twitter
-            </div>
+            </a>
             <div className="absolute top-[96px] left-0 opacity-[0.78] [font-family:'Roboto',Helvetica] font-normal text-white text-[14px] tracking-[0] leading-[22.4px] whitespace-nowrap">
               Instagram
             </div>
             <div className="absolute top-[50px] left-0 opacity-[0.78] [font-family:'Roboto',Helvetica] font-normal text-white text-[14px] tracking-[0] leading-[22.4px] whitespace-nowrap">
               Facebook
             </div>
-            <div className="left-0 [font-family:'Roboto',Helvetica] font-bold text-white text-[16px] tracking-[0] leading-[25.6px] whitespace-nowrap absolute top-0">
+            <a href='/contact' className="left-0 [font-family:'Roboto',Helvetica] font-bold text-white text-[16px] tracking-[0] leading-[25.6px] whitespace-nowrap absolute top-0">
               Connect
-            </div>
+            </a>
           </div>
           </div>
           </div>

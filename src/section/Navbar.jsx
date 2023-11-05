@@ -50,7 +50,7 @@ export default function Header({ className }) {
                 <a href="/">Home</a>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/about">About Us</a>
+                <a href="/about-us">About Us</a>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
                 <a href="/what-we-do">What We do</a>
@@ -71,7 +71,7 @@ export default function Header({ className }) {
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="/about">About Us</a>
+            <a href="/about-us">About Us</a>
           </li>
           <li>
             <a href="/what-we-do">What We Do</a>
