@@ -32,6 +32,7 @@ module.exports = {
         'header-value ' : "url('/public/images/unsplash-iigovkrty8g.png')",
         'header-page' : "url('/public/images/unsplash-cveoh-jjmee-1.png')",
         'header-start' : "url('/public/images/unsplash-cveoh-jjmee.png')",
+        'header-what' : "url('/public/images/unsplash-1.png')"
       },
     },
   },
