@@ -6,6 +6,7 @@ import ProjectReadMore from "./components/ProjectReadMore";
 import Homepage from "./components/Homepage";
 import AboutPage from "./components/AboutPage";
 import WhatWeDo from "./components/WhatWeDo";
+import Media from "./components/Media";
 
  
 function App() {
@@ -19,6 +20,7 @@ function App() {
                     <Route exact path='/style-guide ' element={<StyleGuide />} />
                     <Route exact path="/about-us" element={<AboutPage />} />
                     <Route exact path="/what-we-do" element={<WhatWeDo />} />
+                    <Route exact path="/media" element={<Media />} />
                 </Routes>
             </Router>
         </div>
