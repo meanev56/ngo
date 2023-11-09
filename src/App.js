@@ -7,6 +7,7 @@ import Homepage from "./components/Homepage";
 import AboutPage from "./components/AboutPage";
 import WhatWeDo from "./components/WhatWeDo";
 import Media from "./components/Media";
+import ContactUs from "./components/ContactUs";
 
  
 function App() {
@@ -21,6 +22,7 @@ function App() {
                     <Route exact path="/about-us" element={<AboutPage />} />
                     <Route exact path="/what-we-do" element={<WhatWeDo />} />
                     <Route exact path="/media" element={<Media />} />
+                    <Route rxact path='/contact' element={<ContactUs />} />
                 </Routes>
             </Router>
         </div>
