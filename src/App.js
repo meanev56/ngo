@@ -8,6 +8,7 @@ import AboutPage from "./components/AboutPage";
 import WhatWeDo from "./components/WhatWeDo";
 import Media from "./components/Media";
 import ContactUs from "./components/ContactUs";
+import Donations from "./components/Donations";
 
  
 function App() {
@@ -22,7 +23,8 @@ function App() {
                     <Route exact path="/about-us" element={<AboutPage />} />
                     <Route exact path="/what-we-do" element={<WhatWeDo />} />
                     <Route exact path="/media" element={<Media />} />
-                    <Route rxact path='/contact' element={<ContactUs />} />
+                    <Route exact path='/contact' element={<ContactUs />} />
+                    <Route exact path="/donation" element={<Donations />} />
                 </Routes>
             </Router>
         </div>
